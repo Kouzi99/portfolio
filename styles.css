@@ -1,0 +1,70 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+*{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    
+    
+    padding: 0 0 1vw 1vw;
+    
+    
+    
+}
+header{
+font-size: 3vw;
+}
+#navbar{
+    display: flex;
+    right: 0;
+    font-size: 3vw;
+    position:fixed;
+    
+    
+    
+    
+
+}
+#navbar a{
+    margin-right: 3vw;
+    text-decoration:none;
+    color: black;
+    
+    
+}
+#welcome-section{
+    background: rgb(2,0,36);
+    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(78,133,92,0.4519906323185011) 0%, rgba(15,148,182,1) 97%, rgba(7,182,221,1) 100%, rgba(0,212,255,1) 100%);
+    width: 100vw;
+    height: 70vw;
+    
+    
+}
+#welcome-section h1{
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-right: 2vw;
+}
+#projects h1{
+    margin: 2vw;
+
+}
+#contact h1{
+    margin: 2vw;
+}
+
+.project-title{
+    width: 100vw;
+    height: 70vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(47,89,117,0.4519906323185011) 0%, rgba(15,148,182,1) 97%, rgba(7,182,221,1) 100%, rgba(0,212,255,1) 100%);
+}
