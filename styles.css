@@ -24,7 +24,7 @@ font-size: 3vw;
 #navbar{
     display: flex;
     right: 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
     position:fixed;
     
     
@@ -60,11 +60,20 @@ font-size: 3vw;
 }
 #contact h1{
     margin: 2vw;
+    
 }
-
-.project-title{
+#contact{
+    width: 100vw;
+    height: 70vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(148,65,164,0.4519906323185011) 0%, rgba(15,148,182,1) 97%, rgba(7,182,221,1) 100%, rgba(0,212,255,1) 100%);
+}
+#projects{
     width: 100vw;
     height: 70vw;
     background: rgb(2,0,36);
     background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(47,89,117,0.4519906323185011) 0%, rgba(15,148,182,1) 97%, rgba(7,182,221,1) 100%, rgba(0,212,255,1) 100%);
+}
+h1{
+    font-size: 2vw;
 }
