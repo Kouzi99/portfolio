@@ -3,77 +3,89 @@
       scroll-behavior: smooth;
     }
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 *{
     margin:0;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Quicksand', sans-serif;
 }
-.top{
-    display: flex;
-    flex-direction: row;
-    
-    
-    padding: 0 0 1vw 1vw;
-    
-    
-    
-}
+
 header{
 font-size: 3vw;
 }
 #navbar{
     display: flex;
+    top:1vw;
     right: 0;
     font-size: 2.5vw;
     position:fixed;
-    
-    
-    
-    
-
 }
 #navbar a{
+    margin-top: -1vw;
     margin-right: 3vw;
     text-decoration:none;
-    color: black;
-    
-    
+    color: black;   
 }
 #welcome-section{
-    background: rgb(2,0,36);
-    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(78,133,92,0.4519906323185011) 0%, rgba(15,148,182,1) 97%, rgba(7,182,221,1) 100%, rgba(0,212,255,1) 100%);
+    background-color: rgba(103, 96, 221, 0.808);
+    
     width: 100vw;
-    height: 70vw;
-    
-    
+    height: 70vw;    
 }
-#welcome-section h1{
-    
+#welcome-section h1{   
     top: 50%;
     left: 50%;
     position: absolute;
     margin-right: 2vw;
+    animation: fadeIn 5s;
 }
-#projects h1{
-    margin: 2vw;
 
-}
-#contact h1{
-    margin: 2vw;
-    
-}
 #contact{
     width: 100vw;
-    height: 70vw;
-    background: rgb(2,0,36);
-    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(148,65,164,0.4519906323185011) 0%, rgba(15,148,182,1) 97%, rgba(7,182,221,1) 100%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    background-color: rgb(65, 62, 117);
+    
 }
 #projects{
     width: 100vw;
-    height: 70vw;
-    background: rgb(2,0,36);
-    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(47,89,117,0.4519906323185011) 0%, rgba(15,148,182,1) 97%, rgba(7,182,221,1) 100%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    background-color: rgb(109, 120, 180);
+    
+}
+#certificate{
+    
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(183, 224, 86) , rgb(50, 133, 180));
 }
 h1{
     font-size: 2vw;
 }
+
+.top{
+    display: inline-block;
+    font-family: "arial";
+    font-size: 24px;
+  }
+  
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 1.5s steps(11, end) forwards, blinking 1s infinite;
+  }
+    
+  @keyframes typing {
+    from { width: 8% }
+    to { width: 100% }
+  }
+  
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: black}
+    100% {border-right-color: transparent}
+  }
