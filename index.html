@@ -8,61 +8,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Quicksand&display=swap" rel="stylesheet">
-    <script src="myscripts.js"></script>
+    
 </head>
 <body>
-    <div class="top container">
-        <header class="typed">
-            &lt;AdamKozak&gt;
-        </header>
-        <nav id="navbar" >
-            <a href="#welcome-section">Hello</a>
-            <a href="#projects">Projects</a>
-            <a href="#certificate">Certificate</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <!-- Welcome section -->
+    <!-- <div id="welcome-screen" class="welcome-screen"> 
+        <h1>Welcome to Your Website</h1>
+        <button onclick="hideWelcomeScreen()">Enter</button>
+    </div> -->
+    <div id="sidebar">
+        <div class="typed">
+            <h1>&lt;AK&gt</h1>
+        </div>
+        <a href="#welcome-section">Hello</a>
+        <a href="#branding">Branding</a>
+        <a href="#uxui">UX/UI</a>
+        <a href="#front">Front</a>
+        <a href="#back">Back</a>
+        <a href="#contact">Contact</a>
+        <!-- Add more sections as needed -->
     </div>
-    <div id="welcome-section">
-        <h1>&lt;Hello, my name is Adam Kozak, and i will be glade to welp you with your webside&gt;</h1>
-        
-
-    </div>
-    <div id="projects" >
-        <h1>&lt;Projects&gt;</h1>
-        <div class="project-title">
-            <div class="project"></div>
-        </div>
-        <div class="project-title">
-            <div class="project"></div>
-        </div>
-        <div class="project-title">
-            <div class="project"></div>
-        </div>
-        <div class="project-title">
-            <div class="project"></div>
-        </div>
-        <div class="project-title">
-            <div class="project"></div>
-        </div>
-        <div class="project-title">
-            <div class="project"></div>
-        </div>
-    </div>
-    <div id="certificate" >
-        <h2>Here you can see my certificates</h2>
-        <a href=""></a>
-    </div>
-    <div id="contact" >
-        <h1>&lt;Contact&gt;</h1>
-        <div class="contact">
-            <div class="info">
-                
-            </div>
-            <div class="info"></div>
-            <div class="info"></div>
-        </div>
-    </div>
-
     
+    
+    <!-- Main Content  -->
+    <div class="mainContent">
+        <!-- Navigation -->
+       
+        <!-- Welcome Section -->
+        <div  class="section one" id="welcome-section">
+            <div class="margin">
+            <h1>&lt;Hello, my name is Adam Kozak, and i will be glade to welp you with your webside&gt;</h1>
+            </div>
+        </div>
+        <!-- Projects section -->
+        <div class="section" id="branding">
+            <h1>&lt;Branding&gt;</h1>
+            <div class="project-title">
+                <div class="project"></div>
+            </div>
+            
+        </div>
+        <!-- Certificate section -->
+        <div  class="section" id="uxui" >
+            <h1>uxui</h1>
+            
+        </div>
+        <!-- Contact section -->
+        <div  class="section" id="front" >
+            <h1>&lt;Front&gt;</h1>
+            <div class="contact">
+                <div class="info">
+
+                </div>
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+        </div>
+
+        <div class="section" id="back">
+            <h1>&lt;Back&gt;</h1>
+            <div class="contact">
+                <div class="info">
+        
+                </div>
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+        </div>
+
+        <div class="section" id="contact">
+            <h1>&lt;Contact&gt;</h1>
+            <div class="contact">
+                <div class="info">
+        
+                </div>
+                <div class="info"></div>
+                <div class="info"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
